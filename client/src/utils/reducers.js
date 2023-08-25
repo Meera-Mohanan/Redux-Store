@@ -1,3 +1,4 @@
+//import { useReducer } from 'react';
 import {
   UPDATE_PRODUCTS,
   ADD_TO_CART,
@@ -9,10 +10,18 @@ import {
   CLEAR_CART,
   TOGGLE_CART,
 } from './actions';
+// Add initialState here from globalState and pass it to the state
+const initialState = {
+  products: [],
+    cart: [],
+    cartOpen: false,
+    categories: [],
+    currentCategory: '',
+};
 
 // TODO: To get a better understand of how a reducer works - add comments to the various actions in the reducer
 // The reducer is a function that accepts the current state and an action. It returns a new state based on that action.
-export const reducer = (state, action) => {
+export const reducer = (state = initialState, action) => {
   switch (action.type) {
     // TODO: Add a comment describing the functionality of the UPDATE_PRODUCTS case
     // Return a copy of state with an update products array. We use the action.products property and spread it's contents into the new array.
@@ -96,3 +105,6 @@ export const reducer = (state, action) => {
       return state;
   }
 };
+//export function useProductReducer(initialState) {
+  //return useReducer(reducer, initialState);
+//}
