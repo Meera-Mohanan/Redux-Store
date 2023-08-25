@@ -4,7 +4,7 @@ const StoreContext = createContext();
 const { Provider } = StoreContext;
 // //Add react-redux
 // import { Provider } from "react-redux";
-// //import store from utils/store.js
+// import store from utils/store.js
 // import store from "./store";
 // export default function StoreProvider(props) {
 //   return <Provider store={store} {...props} />
