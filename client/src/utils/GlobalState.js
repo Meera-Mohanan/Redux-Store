@@ -1,14 +1,17 @@
 // import React from 'react';
 
-const StoreContext = createContext();
-const { Provider } = StoreContext;
 // //Add react-redux
 // import { Provider } from "react-redux";
-// import store from utils/store.js
+
+// //import store from utils/store.js
 // import store from "./store";
+
 // export default function StoreProvider(props) {
 //   return <Provider store={store} {...props} />
 // };
+
+
+
 // import React, { createContext, useContext } from "react";
 // import { useProductReducer } from './reducers'
 
@@ -31,4 +34,4 @@ const { Provider } = StoreContext;
 //   return useContext(StoreContext);
 // };
 
-// export { StoreProvider, useStoreContext }; 
+// export { StoreProvider, useStoreContext };
