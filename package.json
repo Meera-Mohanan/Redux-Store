@@ -1,7 +1,7 @@
 {
-  "name": "mern-shopping",
+  "name": "Redux-Store",
   "version": "1.0.0",
-  "description": "",
+  "description": "This is a online store built using MERN, GraphQL with Apollo server, MOngoDB, Nodejs/Express, REACT frontend. Redux is  used to store global state of the store. Stripe library is used tp test payments.",
   "main": "server/server.js",
   "scripts": {
     "start": "node server --ignore client",
@@ -10,10 +10,23 @@
     "seed": "cd server && npm run seed",
     "build": "cd client && npm run build"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Meera-Mohanan/Redux-Store"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "concurrently": "^5.1.0"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/Meera-Mohanan/Redux-Store/issues"
+  },
+  "homepage": "https://github.com/Meera-Mohanan/Redux-Store#readme",
+  
+  "engines": {
+    "node": "7.x",
+    "npm": "7.x"
+  }  
 }
