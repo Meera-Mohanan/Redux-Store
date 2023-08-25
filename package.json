@@ -26,7 +26,6 @@
   "homepage": "https://github.com/Meera-Mohanan/Redux-Store#readme",
   
   "engines": {
-    "node": "7.x",
-    "npm": "7.x"
+       "npm": "7.x"
   }  
 }
