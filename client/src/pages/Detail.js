@@ -3,7 +3,6 @@ import { Link, useParams } from 'react-router-dom';
 import { useQuery } from '@apollo/client';
 
 import Cart from '../components/Cart';
-import { useStoreContext } from '../utils/GlobalState';
 // Remove the useStoreContext because now it's a global context that's included in the Provider
 //import { useStoreContext } from '../utils/GlobalState';
 import {
