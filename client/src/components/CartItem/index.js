@@ -1,4 +1,5 @@
 import React from 'react';
+
 // Remove the useStoreContext because now it's a global context that's included in the Provider
 //import { useStoreContext } from "../../utils/GlobalState";
 

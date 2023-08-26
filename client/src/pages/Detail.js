@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { Link, useParams } from 'react-router-dom';
 import { useQuery } from '@apollo/client';
 
@@ -14,13 +14,15 @@ import {
 import { QUERY_PRODUCTS } from '../utils/queries';
 import { idbPromise } from '../utils/helpers';
 import spinner from '../assets/spinner.gif';
+
 //Add useDispatch and useSelect from react redux
 import { useDispatch, useSelector } from "react-redux";
 
 function Detail() {
-  // const [state, dispatch] = useStoreContext();
+  //const [state, dispatch] = useStoreContext();
   const dispatch = useDispatch();
   const state = useSelector((state) => state);
+ 
   const { id } = useParams();
 
   const [currentProduct, setCurrentProduct] = useState({});
