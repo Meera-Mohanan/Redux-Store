@@ -24,8 +24,10 @@
     "url": "https://github.com/Meera-Mohanan/Redux-Store/issues"
   },
   "homepage": "https://github.com/Meera-Mohanan/Redux-Store#readme",
-  
   "engines": {
-       "npm": "7.x"
-  }  
+    "npm": "7.x"
+  },
+  "dependencies": {
+    "mongodb": "^5.8.1"
+  }
 }
